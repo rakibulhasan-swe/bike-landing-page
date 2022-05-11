@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +9,95 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: url("./images/BMW1.png");
+    background-image: url("./images/BMW3.png");
     background-position: center;
     background-size: cover;
     padding: 20px 10%;
+    transition: background-image 0.3s;
 }
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav .btn{
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 15px 50px;
+    border-radius: 30px;
+}
+.content{
+    margin-top: 10%;
+}
+.content h2{
+    color: red;
+    font-size: 34px;
+}
+.content h1{
+    font-size: 100px;
+    color: #222;
+    margin-top: -20px;
+}
+.content p{
+    max-width: 380px;
+    color: #555;
+    font-weight: 500;
+    font-size: 14px;
+}
+.content h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+}
+.color-select{
+    display: flex;
+    margin-top: 30px;
+}
+.color-select div{
+    background-color: #333;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.color-select #black{
+    background-color: black;
+}
+.color-select #blue{
+    background-color: blue;
+}
+.color-select #red{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
